@@ -1,7 +1,5 @@
 package se.lexicon.model;
 
-import se.lexicon.dao.impl.sequencer.PersonIdSequencer;
-
 import java.util.Objects;
 
 public class AppUser {

@@ -5,17 +5,7 @@ import se.lexicon.model.Role;
 
 import java.util.List;
 
-public interface AppUserDao {
-
-  AppUser create(AppUser appUser);
-
-  AppUser findById(Integer id);
-
-  boolean deleteById(Integer id);
-
-  void update(AppUser appUser);
-
-  List<AppUser> findAll();
+public interface AppUserDao extends BaseDao<AppUser> {
 
   AppUser findByUsername(String username);
 
